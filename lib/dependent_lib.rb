@@ -1,0 +1,2 @@
+class DependentLib
+end

@@ -1,0 +1,33 @@
+source 'https://rubygems.org'
+
+# Padrino supports Ruby version 2.2.2 and later
+# ruby '2.3.6'
+
+# Distribute your app as a gem
+# gemspec
+
+# Server requirements
+# gem 'thin' # or mongrel
+# gem 'trinidad', :platform => 'jruby'
+
+# Optional JSON codec (faster performance)
+# gem 'oj'
+
+# Project requirements
+gem 'rake'
+
+# Component requirements
+
+# Test requirements
+
+# Padrino Stable Gem
+# gem 'padrino', :github => 'padrino/padrino-framework'
+# Padrino 0.12.3
+# gem 'padrino', '0.12.3'
+# Padrino fix loader
+gem 'padrino', :github => 'phamvanhung2e123/padrino-framework', :ref => 'change_dependency_order'
+
+# Or Individual Gems
+# %w(core support gen helpers cache mailer admin).each do |g|
+#   gem 'padrino-' + g, '0.14.4'
+# end
