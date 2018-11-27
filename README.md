@@ -11,7 +11,7 @@ gem 'padrino', :github => 'padrino/padrino-framework'
 ```
 
 #### Padrino Stable Gem
-- When use last Padrino
+- When we use last Padrino, `uninitialized constant ALib` is raised
 ```
 ➜  my_padrino_project git:(master) RACK_ENV=test bundle exec padrino c
   DEVEL - 27/Nov/2018 18:02:45  LOADING (0.0030s) /Users/vanhungpham/git/my_padrino_project/lib/a_lib.rb
@@ -41,8 +41,7 @@ NameError: uninitialized constant ALib
 ```
 
 #### Padrino fix loader
-
-- https://github.com/phamvanhung2e123/padrino-framework/commit/ba66049cf98887b8e78f24dd02a6b910c266ce44
+- When we use this fix https://github.com/phamvanhung2e123/padrino-framework/commit/ba66049cf98887b8e78f24dd02a6b910c266ce44 , `NameError` is not rasied 
 ```
 ➜  my_padrino_project git:(master) ✗ RACK_ENV=test bundle exec padrino c
   DEVEL - 27/Nov/2018 18:04:31  LOADING (0.0029s) /Users/vanhungpham/git/my_padrino_project/lib/a_lib.rb
@@ -71,6 +70,7 @@ irb(main):003:0>
 ```
 
 #### Padrino ('0.12.3') old version
+- When we use old version, `uninitialized constant ModelWithNoDepOnLib` is raised
 ```
 ➜  my_padrino_project git:(master) ✗ RACK_ENV=test bundle exec padrino c
   DEVEL - 27/Nov/2018 18:03:33  LOADING (0.0035s) /Users/vanhungpham/git/my_padrino_project/lib/a_lib.rb
