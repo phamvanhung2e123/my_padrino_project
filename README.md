@@ -41,7 +41,7 @@ NameError: uninitialized constant ALib
 ```
 
 #### Padrino fix loader
-- When we use this fix https://github.com/phamvanhung2e123/padrino-framework/commit/ba66049cf98887b8e78f24dd02a6b910c266ce44 , `NameError` is not rasied 
+- When we use this fix https://github.com/phamvanhung2e123/padrino-framework/commit/7f97d159549c7e89ba347018edb98182c35f6549 , `NameError` is not rasied 
 ```
 ➜  my_padrino_project git:(master) ✗ RACK_ENV=test bundle exec padrino c
   DEVEL - 27/Nov/2018 18:04:31  LOADING (0.0029s) /Users/vanhungpham/git/my_padrino_project/lib/a_lib.rb
