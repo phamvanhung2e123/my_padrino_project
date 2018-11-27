@@ -1,6 +1,6 @@
-This is demo project to reproduce dependency bug
+This is demo project for reproducing dependency bug
 #### How to reproduce require dependency bug
-- Edit Gemfile to change padrino-framework and run `bunlde install`
+- Please edit Gemfile to change padrino-framework version and run `bunlde install`
 ```
 # Padrino Stable Gem
 gem 'padrino', :github => 'padrino/padrino-framework'
