@@ -1,0 +1,2 @@
+class ALib < DependentLib
+end
