@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/phamvanhung2e123/padrino-framework.git
-  revision: 778daa998788001a7cc27d0d173d901821d13fcd
+  revision: 7f97d159549c7e89ba347018edb98182c35f6549
   ref: change_dependency_order
   specs:
     padrino (0.14.4)
